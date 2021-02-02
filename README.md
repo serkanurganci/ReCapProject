@@ -14,11 +14,13 @@
 ![Table](https://user-images.githubusercontent.com/71039908/106589318-f06cf080-655c-11eb-9acd-5c8b52c140c3.PNG)
 
 ### Yukarıda ki tabloyu kullanabilmek için ConsoleTables adlı bir paketi kullandım. Sizde denemek isterseniz aşağıda ki adımları uygulayarak paketi yükleyebilirsiniz.
-    Menuden Tools sekmesini açarak görselde gösterilen NuGet Package Manager sekmesine gelin ve ardından Package Manager Console sekmesini tıklayın.
-    Açılan konsola görselde belirtilen kodu girerek paketi yükleyin.
-    ![Packet](https://user-images.githubusercontent.com/71039908/106589742-696c4800-655d-11eb-9290-1d2012357f02.PNG)
+
+   ## Menuden Tools sekmesini açarak görselde gösterilen NuGet Package Manager sekmesine gelin ve ardından Package Manager Console sekmesini tıklayın.
+   Açılan konsola görselde belirtilen kodu girerek paketi yükleyin.
     
-    ![Console](https://user-images.githubusercontent.com/71039908/106589782-75580a00-655d-11eb-8c48-b98b1bcf607e.PNG)
+![Packet](https://user-images.githubusercontent.com/71039908/106589742-696c4800-655d-11eb-9290-1d2012357f02.PNG)
+    
+![Console](https://user-images.githubusercontent.com/71039908/106589782-75580a00-655d-11eb-8c48-b98b1bcf607e.PNG)
 
 ### Projede kullanılan tüm klasör ve dosyalar aşağıda ki gibidir:
 
