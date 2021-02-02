@@ -1,0 +1,9 @@
+C:\Users\serca\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\serca\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\serca\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb

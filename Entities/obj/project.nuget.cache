@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "p6VxjWrHC+9Ku6wN2xbTuQJOL/wxpbvB5TWqQN7dClG5zuCp33wdUlvvkOuk7tFR2gADmKUhvULeUQ4TpETKyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\serca\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\serca\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\serca\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
