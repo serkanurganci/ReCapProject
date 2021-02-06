@@ -5,8 +5,7 @@ using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-    public interface ICarDataTransferDal
+    public interface IColorDal:IEntityRepository<Color>
     {
-        List<CarDataTransfer> GetCarDataTransfer(List<Car> cars, List<Brand> brands);
     }
 }

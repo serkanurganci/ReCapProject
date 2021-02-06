@@ -5,15 +5,8 @@ using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-    public interface ICarDal
+    public interface ICarDal:IEntityRepository<Car>
     {
-        Car GetById(Car carId);
-        List<Car> GetAll();
-        void Add(Car car);
-        void Update(Car car);
-        void Delete(Car car);
-        List<Car> GetByBrand(int brandId);
-        List<Car> GetByPrice();
-        List<Car> GetByModelYear();
+        
     }
 }

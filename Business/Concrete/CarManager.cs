@@ -17,10 +17,29 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-
-        public Car GetById(Car carId)
+        public void Add(Car car)
         {
-            return _carDal.GetById(carId);
+            if (car.DailyPrice > 0)
+            {
+                _carDal.Add(car);
+                Console.WriteLine("Arac Sisteme basariyla eklendi.");
+            }
+            else
+            {
+                Console.WriteLine("Lutfen aracin gunluk kirasini sifirdan buyuk bir deger giriniz.");
+            }
+        }
+
+        public void Update(Car car)
+        {
+            _carDal.Update(car);
+            Console.WriteLine("Araba sistemde basariyla guncellendi.");
+        }
+
+        public void Delete(Car car)
+        {
+            _carDal.Delete(car);
+            Console.WriteLine("Araba sistemden basariyla silindi.");
         }
 
         public List<Car> GetAll()
@@ -28,34 +47,29 @@ namespace Business.Concrete
             return _carDal.GetAll();
         }
 
-        public void Add(Car car)
+        public Car GetById(int id)
         {
-            _carDal.Add(car);
+            return _carDal.Get();
         }
 
-        public void Delete(Car car)
+        public List<Car> GetCarsByColorId(int id)
         {
-            _carDal.Delete(car);
+            return _carDal.GetAll(p => p.ColorId == id);
         }
 
-        public void Update(Car car)
+        public List<Car> GetCarsByBrandId(int id)
         {
-            _carDal.Update(car);
+            return _carDal.GetAll(p => p.BrandId == id);
         }
 
-        public List<Car> GetByBrandId(int brandId)
+        public List<Car> GetByDailyPrice(decimal min, decimal max)
         {
-            return _carDal.GetByBrand(brandId);
+            return _carDal.GetAll(p => p.DailyPrice>=min && p.DailyPrice<=max);
         }
 
-        public List<Car> GetByModelYear()
+        public List<Car> GetByModelYear(int year)
         {
-            return _carDal.GetByModelYear();
-        }
-
-        public List<Car> GetByPrice()
-        {
-            return _carDal.GetByPrice();
+            return _carDal.GetAll(p => p.ModelYear == year);
         }
     }
 }
