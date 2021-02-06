@@ -49,7 +49,7 @@ namespace Business.Concrete
 
         public Car GetById(int id)
         {
-            return _carDal.Get();
+            return _carDal.Get(c=>c.Id == id);
         }
 
         public List<Car> GetCarsByColorId(int id)
