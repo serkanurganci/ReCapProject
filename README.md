@@ -2,7 +2,7 @@
 
 ## :gem: Introduction
 
-##### ReCapProject Engin Demiroğ tarafından düzenlenen Nitelikli Yazılım Geliştirici Yetiştirme Kampı Araç Kiralama Projesidir.
+### ReCapProject Engin Demiroğ tarafından düzenlenen Nitelikli Yazılım Geliştirici Yetiştirme Kampı Araç Kiralama Projesidir.
 
 ##### Proje:
 
@@ -45,7 +45,7 @@ Bu katman kullanıcı ile  etkileşimin yapıldığı katmandır. Kullanıcı il
  * Proje artık bir database üzerinden çalışmakta.
  * Color ve Brand objeleri eklendi.
  * Core Katmanı Eklendi.
- * DTO (Data Transfer Object)
+ * DTO (Data Transfer Object) Eklendi.
  
 ### Console menu tasarımı aşağıda ki gibidir. Menu geçişleri yön okları yardımı ile yapılabilir.
 
