@@ -40,7 +40,7 @@ Bu katmanda tüm projelerin ortak olarak kullanabileceği base classları bulund
 
 Bu katman kullanıcı ile  etkileşimin yapıldığı katmandır. Kullanıcı ile etkileşim Console arayüzü ile yapılmaktadır.
 
-## :exclamation: Güncellemeler
+## :exclamation: Updates
  * EntityFramework eklentisi eklendi.
  * Proje artık bir database üzerinden çalışmakta.
  * Color ve Brand objeleri eklendi.
