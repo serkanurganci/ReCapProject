@@ -10,3 +10,5 @@ C:\Users\serca\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\Dat
 C:\Users\serca\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\serca\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\serca\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\serca\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\serca\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb

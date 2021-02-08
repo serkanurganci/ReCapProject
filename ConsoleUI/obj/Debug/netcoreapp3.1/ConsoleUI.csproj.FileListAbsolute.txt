@@ -59,3 +59,5 @@ C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runti
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb

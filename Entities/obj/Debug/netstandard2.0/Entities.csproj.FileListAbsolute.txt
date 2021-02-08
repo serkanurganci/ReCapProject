@@ -7,3 +7,6 @@ C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entit
 C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\serca\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\serca\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\serca\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
