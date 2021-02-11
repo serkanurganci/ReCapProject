@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Business.Concrete;
+using Business.Constants;
 using ConsoleTables;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
@@ -176,7 +177,7 @@ namespace ConsoleUI
             Console.Write("Araç Açıklaması:");
             string Description = Console.ReadLine();
             Console.Clear();
-            carManager.Add(new Car { BrandId = BrandId, ColorId = ColorId, ModelYear = ModelYear, DailyPrice = DailyPrice, Description = Description });
+            Console.WriteLine(carManager.Add(new Car { BrandId = BrandId, ColorId = ColorId, ModelYear = ModelYear, DailyPrice = DailyPrice, Description = Description }).Message);
         }
 
         private static void DeleteCar(CarManager carManager,BrandManager brandManager)
@@ -190,7 +191,7 @@ namespace ConsoleUI
         private static void ListCars(CarManager carManager)
         {
             Console.Clear();
-            foreach (var car in carManager.GetCarDetails())
+            foreach (var car in carManager.GetCarDetails().Data)
             {
                 var table = new ConsoleTable("Araba Id", "Marka", "Yıl","Günlük Kira Ücreti","Renk", "Açıklama");
                     table.AddRow(car.Id,car.BrandName,car.ModelYear,car.DailyPrice,car.ColorName,car.Description);
@@ -230,7 +231,7 @@ namespace ConsoleUI
         public static void DeleteBrand(BrandManager brandManager)
         {
             Console.Clear();
-            foreach (var brand in brandManager.GetAll())
+            foreach (var brand in brandManager.GetAll().Data)
             {
                 Console.WriteLine($"{brand.Id}. {brand.Name}");
             }
@@ -243,7 +244,7 @@ namespace ConsoleUI
         {
             Console.Clear();
             Console.WriteLine("--Tüm Markalar--");
-            foreach (var brand in brandManager.GetAll())
+            foreach (var brand in brandManager.GetAll().Data)
             {
                 Console.WriteLine($"{brand.Id}. {brand.Name}");
             }
@@ -253,7 +254,7 @@ namespace ConsoleUI
         {
             Console.Clear();
             Console.WriteLine("--Tüm Renkler--");
-            foreach (var color in colorManager.GetAll())
+            foreach (var color in colorManager.GetAll().Data)
             {
                 Console.WriteLine($"{color.Id}. {color.Name}");
             }
@@ -262,9 +263,9 @@ namespace ConsoleUI
         public static void ListByModelYear(CarManager carManager,BrandManager brandManager)
         {
             Console.Clear();
-            foreach (var car in carManager.GetAll())
+            foreach (var car in carManager.GetAll().Data)
             {
-                foreach (var brand in brandManager.GetAll().Where(p => p.Id == car.BrandId))
+                foreach (var brand in brandManager.GetAll().Data.Where(p => p.Id == car.BrandId))
                 {
                     Console.WriteLine(" Marka:{0} Çıkış Yılı:{1} Fiyat:{2}\n",brand.Name, car.ModelYear, car.DailyPrice);
                 }
@@ -274,9 +275,9 @@ namespace ConsoleUI
         public static void ListByPrice(CarManager carManager,BrandManager brandManager)
         {
             Console.Clear();
-            foreach (var car in carManager.GetAll())
+            foreach (var car in carManager.GetAll().Data)
             {
-                foreach (var brand in brandManager.GetAll().Where(p => p.Id == car.BrandId))
+                foreach (var brand in brandManager.GetAll().Data.Where(p => p.Id == car.BrandId))
                 {
                     Console.WriteLine(" Marka:{0} Çıkış Yılı:{1} Fiyat:{2}\n", brand.Name, car.ModelYear, car.DailyPrice);
                 }
