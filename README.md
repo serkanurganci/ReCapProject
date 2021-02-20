@@ -19,19 +19,19 @@
 
 ## :arrow_down_small: Packages to Download
 
-**--DataAccess**
-     📦 Microsoft.EntityFrameworkCore.SqlServer (3.1.11)
-     📦 Microsoft.EntityFrameworkCore (3.1.11)
-**--Core**
-     📦 Microsoft.EntityFrameworkCore.SqlServer (3.1.11)
-     📦 Autofac (6.1.0)
-     📦 Autofac.Extensions.DependencyInjection (7.1.0)
-     📦 Autofac.Extras.DynamicProxy (6.0.0)
-**--Business**
-     📦 Autofac (6.1.0)
-     📦 Autofac.Extras.DynamicProxy (6.0.0)
-**--WebAPI**
-     📦 Autofac.Extensions.DependencyInjection (7.1.0)
+**--DataAccess** <br>
+     📦 Microsoft.EntityFrameworkCore.SqlServer (3.1.11)<br>
+     📦 Microsoft.EntityFrameworkCore (3.1.11)<br>
+**--Core**<br>
+     📦 Microsoft.EntityFrameworkCore.SqlServer (3.1.11)<br>
+     📦 Autofac (6.1.0)<br>
+     📦 Autofac.Extensions.DependencyInjection (7.1.0)<br>
+     📦 Autofac.Extras.DynamicProxy (6.0.0)<br>
+**--Business**<br>
+     📦 Autofac (6.1.0)<br>
+     📦 Autofac.Extras.DynamicProxy (6.0.0)<br>
+**--WebAPI**<br>
+     📦 Autofac.Extensions.DependencyInjection (7.1.0)<br>
 
 ## :earth_africa: Ecosystem
  * EntityFramework
