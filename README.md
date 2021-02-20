@@ -12,11 +12,32 @@
   * Core
   * ConsoleUI
   katmanlarından oluşan bir araba kiralama projesidir.
-  
+
+## :arrow_double_up: Recent Updated
+
+ * Autofac desteği eklendi
+
+## :arrow_down_small: Packages to Download
+
+**--DataAccess**
+     📦 Microsoft.EntityFrameworkCore.SqlServer (3.1.11)
+     📦 Microsoft.EntityFrameworkCore (3.1.11)
+**--Core**
+     📦 Microsoft.EntityFrameworkCore.SqlServer (3.1.11)
+     📦 Autofac (6.1.0)
+     📦 Autofac.Extensions.DependencyInjection (7.1.0)
+     📦 Autofac.Extras.DynamicProxy (6.0.0)
+**--Business**
+     📦 Autofac (6.1.0)
+     📦 Autofac.Extras.DynamicProxy (6.0.0)
+**--WebAPI**
+     📦 Autofac.Extensions.DependencyInjection (7.1.0)
+
 ## :earth_africa: Ecosystem
  * EntityFramework
  * ConsoleTables
  * SQL Server
+ * Autofac
 
 ## :construction_worker: Layers
 
