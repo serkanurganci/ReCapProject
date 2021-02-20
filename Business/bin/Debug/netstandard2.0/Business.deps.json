@@ -13,6 +13,7 @@
           "Autofac.Extras.DynamicProxy": "6.0.0",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
+          "FluentValidation": "9.5.1",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -60,6 +61,14 @@
           "lib/netstandard1.5/Castle.Core.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "FluentValidation/9.5.1": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.5.1.0"
           }
         }
       },
@@ -1302,6 +1311,7 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "9.5.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "runtime": {
@@ -1354,6 +1364,13 @@
       "sha512": "sha512-b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
       "path": "castle.core/4.4.0",
       "hashPath": "castle.core.4.4.0.nupkg.sha512"
+    },
+    "FluentValidation/9.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-By09e2m4N3giD7Giq8NCFgkgN5Hkm8Lv/bk8AadD9Xc6jjj2WDGrD6l9keZbWbkO9aygiHQREIt47iS2sVSU7w==",
+      "path": "fluentvalidation/9.5.1",
+      "hashPath": "fluentvalidation.9.5.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

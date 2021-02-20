@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "FluentValidation/9.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -1696,6 +1705,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FluentValidation": "9.5.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "compile": {
@@ -1708,6 +1718,24 @@
     }
   },
   "libraries": {
+    "FluentValidation/9.5.1": {
+      "sha512": "By09e2m4N3giD7Giq8NCFgkgN5Hkm8Lv/bk8AadD9Xc6jjj2WDGrD6l9keZbWbkO9aygiHQREIt47iS2sVSU7w==",
+      "type": "package",
+      "path": "fluentvalidation/9.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.9.5.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net461/FluentValidation.dll",
+        "lib/net461/FluentValidation.xml",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",

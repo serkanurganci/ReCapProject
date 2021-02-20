@@ -69,6 +69,14 @@
           }
         }
       },
+      "FluentValidation/9.5.1": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.5.1.0"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -1087,7 +1095,8 @@
           "Autofac": "6.1.0",
           "Autofac.Extras.DynamicProxy": "6.0.0",
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "FluentValidation": "9.5.1"
         },
         "runtime": {
           "Business.dll": {}
@@ -1095,6 +1104,7 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "9.5.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "runtime": {
@@ -1154,6 +1164,13 @@
       "sha512": "sha512-0SRFOWYCgFQ0RfAMof2DsGEJHI2YKquCA4X26kKyuG+MG+/2R3NRgRVEqXDMU7eVP69MGDzb1eg4i3/APlIfQg==",
       "path": "consoletables/2.4.2",
       "hashPath": "consoletables.2.4.2.nupkg.sha512"
+    },
+    "FluentValidation/9.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-By09e2m4N3giD7Giq8NCFgkgN5Hkm8Lv/bk8AadD9Xc6jjj2WDGrD6l9keZbWbkO9aygiHQREIt47iS2sVSU7w==",
+      "path": "fluentvalidation/9.5.1",
+      "hashPath": "fluentvalidation.9.5.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

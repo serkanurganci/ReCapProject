@@ -64,3 +64,4 @@ C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
