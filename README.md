@@ -16,28 +16,32 @@
 ## :arrow_double_up: Recent Updated
 
  * Autofac desteği eklendi
+ * FluentValidation desteği eklendi.
 
 ## :arrow_down_small: Packages to Download
 
 **--DataAccess** <br>
-     📦 Microsoft.EntityFrameworkCore.SqlServer (3.1.11)<br>
-     📦 Microsoft.EntityFrameworkCore (3.1.11)<br>
+     📦 Microsoft.EntityFrameworkCore.SqlServer<br>
+     📦 Microsoft.EntityFrameworkCore<br>
 **--Core**<br>
-     📦 Microsoft.EntityFrameworkCore.SqlServer (3.1.11)<br>
+     📦 Microsoft.EntityFrameworkCore.SqlServer<br>
      📦 Autofac (6.1.0)<br>
-     📦 Autofac.Extensions.DependencyInjection (7.1.0)<br>
-     📦 Autofac.Extras.DynamicProxy (6.0.0)<br>
+     📦 Autofac.Extensions.DependencyInjection<br>
+     📦 Autofac.Extras.DynamicProxy<br>
+     📦 FluentValidation<br>
 **--Business**<br>
-     📦 Autofac (6.1.0)<br>
-     📦 Autofac.Extras.DynamicProxy (6.0.0)<br>
+     📦 Autofac<br>
+     📦 Autofac.Extras.DynamicProxy<br>
+     📦 FluentValidation<br>
 **--WebAPI**<br>
-     📦 Autofac.Extensions.DependencyInjection (7.1.0)<br>
+     📦 Autofac.Extensions.DependencyInjection<br>
 
 ## :earth_africa: Ecosystem
  * EntityFramework
  * ConsoleTables
  * SQL Server
  * Autofac
+ * FluentValidation
 
 ## :construction_worker: Layers
 
