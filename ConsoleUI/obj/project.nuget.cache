@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aruvzIZRJDGx7Aa6MNJ/xAwctSraYVHLSP5tpkIG05CkbEKsGDofJusz/gJAjp5Udn9vaXREk9VEobKjeRuxrw==",
+  "dgSpecHash": "ZW5MVawe7+/6tFjYtNd2agim+9MZAHNI2c+0en+urm4lK949jJDi9BMRGefwBVUHPF4KSug44Sn75H1fspxTSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\serca\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serca\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\serca\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\consoletables\\2.4.2\\consoletables.2.4.2.nupkg.sha512",
