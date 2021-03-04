@@ -41,7 +41,7 @@ namespace Business.Concrete
             carImage.ImagePath = Operation.AddAsync(file);
             carImage.Date = DateTime.Now;
             _carImageDal.Add(carImage);
-            return new SuccessResult();
+            return new SuccessResult(Messages.Added);
         }
 
         [ValidationAspect(typeof(CarImageValidator))]

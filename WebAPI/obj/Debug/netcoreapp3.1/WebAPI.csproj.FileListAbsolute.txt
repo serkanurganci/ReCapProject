@@ -73,3 +73,4 @@ C:\Users\serca\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.
 C:\Users\serca\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\serca\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\serca\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\serca\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

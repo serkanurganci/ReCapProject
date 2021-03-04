@@ -66,3 +66,6 @@ C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autof
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\serca\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll

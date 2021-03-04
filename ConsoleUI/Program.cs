@@ -4,6 +4,7 @@ using System.Linq;
 using Business.Concrete;
 using Business.Constants;
 using ConsoleTables;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -257,7 +258,6 @@ namespace ConsoleUI
             Console.Write("Password: ");
             int UserPassword = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
-            Console.WriteLine(userManager.Add(new User{FirstName = UserName,LastName = UserLastName,Email = UserEmail,Password = UserPassword}).Message);
         }
         private static void AddCar(CarManager carManager,BrandManager brandManager,ColorManager colorManager)
         {
