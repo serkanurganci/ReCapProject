@@ -11,12 +11,15 @@
   * Business 
   * Core
   * ConsoleUI
+  * WebAPI
   katmanlarından oluşan bir araba kiralama projesidir.
 
 ## :arrow_double_up: Recent Updated
 
  * Autofac desteği eklendi
  * FluentValidation desteği eklendi.
+ * Api üzerinden resim yükleme eklendi.
+ * JWT entegrasyonu yapıldı.
 
 ## :arrow_down_small: Packages to Download
 
