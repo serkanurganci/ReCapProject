@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using System.Text;
 using Core.Utilities.Results;
 using Entities.Concrete;
@@ -20,5 +21,6 @@ namespace Business.Abstract
         IDataResult<List<Car>> GetByModelYear(int year);
         IDataResult<List<CarDetailDto>> GetCarDetails();
 
+        IResult AddTransationalTest(Car car);
     }
 }

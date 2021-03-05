@@ -6,6 +6,9 @@ using Business.Abstract;
 using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Cashing;
+using Core.Aspects.Autofac.Performance;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
@@ -28,6 +31,7 @@ namespace Business.Concrete
 
         [SecuredOperation("car.add,admin")]
         [ValidationAspect(typeof(CarValidator))]
+        [CacheRemoveAspect("ICarService.Get")]
         public IResult Add(Car car)
         {
 
@@ -35,6 +39,8 @@ namespace Business.Concrete
             return new SuccessResult("Ekleme islemi basarili");
         }
 
+        [ValidationAspect(typeof(CarValidator))]
+        [CacheRemoveAspect("ICarService.Get")]
         public IResult Update(Car car)
         {
             _carDal.Update(car);
@@ -47,11 +53,14 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Delete);
         }
 
+        [CacheAspect]
         public IDataResult<List<Car>> GetAll()
         {
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(),Messages.Listed);
         }
 
+        [CacheAspect]
+        [PerformanceAspect(5)]
         public IDataResult<Car> GetById(int id)
         {
             return new SuccessDataResult<Car>(_carDal.Get(c => c.Id == id));
@@ -80,6 +89,19 @@ namespace Business.Concrete
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails()); 
+        }
+
+        [TransactionScopeAspect]
+        public IResult AddTransationalTest(Car car)
+        {
+            Add(car);
+            if (car.DailyPrice < 1000)
+            {
+                throw new Exception("");
+            }
+
+            Add(car);
+            return null;
         }
     }
 }
