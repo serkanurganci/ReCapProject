@@ -329,7 +329,7 @@ namespace ConsoleUI
             int brandId = Convert.ToInt32(Console.ReadLine());
             Console.Write("Lutfen Markanın Adını Giriniz:");
             string brandName = Console.ReadLine();
-            brandManager.Add(new Brand { Id = brandId,Name = brandName });
+            brandManager.Add(new Brand { Id = brandId,BrandName = brandName });
         }
 
         public static void DeleteBrand(BrandManager brandManager)
@@ -337,7 +337,7 @@ namespace ConsoleUI
             Console.Clear();
             foreach (var brand in brandManager.GetAll().Data)
             {
-                Console.WriteLine($"{brand.Id}. {brand.Name}");
+                Console.WriteLine($"{brand.Id}. {brand.BrandName}");
             }
             Console.Write("Lütfen Sistemden Silmek Istediğiniz Markanın Id sini Giriniz:");
             int brandId = Convert.ToInt32(Console.ReadLine());
@@ -350,7 +350,7 @@ namespace ConsoleUI
             Console.WriteLine("--Tüm Markalar--");
             foreach (var brand in brandManager.GetAll().Data)
             {
-                Console.WriteLine($"{brand.Id}. {brand.Name}");
+                Console.WriteLine($"{brand.Id}. {brand.BrandName}");
             }
         }
 
@@ -360,7 +360,7 @@ namespace ConsoleUI
             Console.WriteLine("--Tüm Renkler--");
             foreach (var color in colorManager.GetAll().Data)
             {
-                Console.WriteLine($"{color.Id}. {color.Name}");
+                Console.WriteLine($"{color.Id}. {color.ColorName}");
             }
         }
 
@@ -371,7 +371,7 @@ namespace ConsoleUI
             {
                 foreach (var brand in brandManager.GetAll().Data.Where(p => p.Id == car.BrandId))
                 {
-                    Console.WriteLine(" Marka:{0} Çıkış Yılı:{1} Fiyat:{2}\n",brand.Name, car.ModelYear, car.DailyPrice);
+                    Console.WriteLine(" Marka:{0} Çıkış Yılı:{1} Fiyat:{2}\n",brand.BrandName, car.ModelYear, car.DailyPrice);
                 }
             }
         }
@@ -383,7 +383,7 @@ namespace ConsoleUI
             {
                 foreach (var brand in brandManager.GetAll().Data.Where(p => p.Id == car.BrandId))
                 {
-                    Console.WriteLine(" Marka:{0} Çıkış Yılı:{1} Fiyat:{2}\n", brand.Name, car.ModelYear, car.DailyPrice);
+                    Console.WriteLine(" Marka:{0} Çıkış Yılı:{1} Fiyat:{2}\n", brand.BrandName, car.ModelYear, car.DailyPrice);
                 }
             }
         }

@@ -24,7 +24,8 @@ namespace DataAccess.Concrete.EntityFramework
                     join brand in context.Brands on car.BrandId equals brand.Id
                     select new RentalDetailDto
                     {
-                        Id = rental.Id,CarDescription = car.Description,CarBrand = brand.Name,CarModel = car.ModelYear,
+                        Id = rental.Id,CarDescription = car.Description,CarBrand = brand.BrandName,
+                        CarModel = car.ModelYear,
                         CompanyName = customer.CompanyName,CustomerFirstName = user.FirstName,CustomerLastName = user.LastName,
                         RentDate = rental.RentDate,ReturnDate = rental.ReturnDate == null ? (DateTime?)null : rental.ReturnDate
                     };
